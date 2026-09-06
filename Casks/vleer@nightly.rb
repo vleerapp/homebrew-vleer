@@ -6,16 +6,16 @@ cask "vleer@nightly" do
          intel: "291e50a1620b398a30a33a5fc01939d3b91e8d4afe6002069c38e7ed6880a64c"
 
   url "https://vleer-releases.objects.eplg.cloud/nightly/Vleer-0.1.0-nightly.20260906.352-#{arch}.dmg"
-  name "Vleer Nightly"
+  name "Vleer"
   desc "Vleer nightly build"
   homepage "https://vleer.app"
 
   conflicts_with cask: "vleer"
   auto_updates true
 
-  app "Vleer.app", target: "Vleer Nightly.app"
+  app "Vleer.app"
 
   postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Vleer Nightly.app"]
+    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Vleer.app"]
   end
 end
