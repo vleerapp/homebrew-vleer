@@ -1,11 +1,11 @@
 cask "vleer@nightly" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.0-nightly.20260907.353"
-  sha256 arm:   "321cf1ef11a379c484efcecc8a1cc80fe1e9843e332e06e556cc7039e005337c",
-         intel: "3143424762e111e5e7c05cd6d17990144d779e4dedc62f3c6cd71b95c9ed9d2d"
+  version "0.1.0-nightly.20260908.354"
+  sha256 arm:   "b26d4bdb5a79be472dbdd31e6f6b33d381623f6f6a8f419eac36ada7fd8e9fdd",
+         intel: "b66a739684ce64e041d11c2a9fc0cc6a174706409f7352b5d1885938dbd24373"
 
-  url "https://vleer-releases.objects.eplg.cloud/nightly/Vleer-0.1.0-nightly.20260907.353-#{arch}.dmg"
+  url "https://vleer-releases.objects.eplg.cloud/nightly/Vleer-0.1.0-nightly.20260908.354-#{arch}.dmg"
   name "Vleer Nightly"
   desc "Vleer nightly build"
   homepage "https://vleer.app"
