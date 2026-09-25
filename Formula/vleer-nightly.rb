@@ -1,9 +1,9 @@
 class VleerNightly < Formula
   desc "Music, but without the subscription (nightly build)"
   homepage "https://vleer.app"
-  url "https://vleer-releases.objects.eplg.cloud/nightly/Vleer-0.1.0-nightly.20260925.374-#{Hardware::CPU.arm? ? "aarch64" : "x86_64"}.tar.gz"
-  version "0.1.0-nightly.20260925.374"
-  sha256 Hardware::CPU.arm? ? "729946a14a539384a69caa864ef23cf7639e60f11819dfb32b01b5e652ad6d54" : "a95e1ca5e5fc9c17555c866e6452a691e7e2a7aafbd8431ab01d477c21a2a7bf"
+  url "https://vleer-releases.objects.eplg.cloud/nightly/Vleer-0.1.0-nightly.20260925.375-#{Hardware::CPU.arm? ? "aarch64" : "x86_64"}.tar.gz"
+  version "0.1.0-nightly.20260925.375"
+  sha256 Hardware::CPU.arm? ? "b3bd788b4a728ced14d00776ec79e13b02aa7968e89819cdc14e7e1509d3ba3b" : "9aea5e4c7357acfb63fdc0b01fe93cd113ee218bede6d780478e6747c1182238"
 
   conflicts_with "vleer"
 
