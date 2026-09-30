@@ -1,11 +1,11 @@
 cask "vleer-nightly" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.0-nightly.20260930.381"
-  sha256 arm:    "91eaa4d84e83f38520b3fec045c81594b9840f3b30f2f993f1c07901920c389c",
-         x86_64: "6cf4688729ce83b80a1b1ee7cb79f427c3c2211f85b569907fbcfec28f19d964"
+  version "0.1.0-nightly.20260930.382"
+  sha256 arm:    "953e7ab1b9dd3c0e3c535e9b135be3f5d0697688ff2041de2849486129a01eb4",
+         x86_64: "009d79a4852cfa7090cefe826c06c8ad3216f11fa7f7813b5327107e002b847b"
 
-  url "https://vleer-releases.objects.eplg.cloud/nightly/Vleer-0.1.0-nightly.20260930.381-#{arch}.dmg"
+  url "https://vleer-releases.objects.eplg.cloud/nightly/Vleer-0.1.0-nightly.20260930.382-#{arch}.dmg"
   name "Vleer"
   desc "Music, but without the subscription (nightly build)"
   homepage "https://vleer.app/"
